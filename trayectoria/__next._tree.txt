@@ -1,6 +1,4 @@
-:HL["/faro/_next/static/chunks/0itgxmv1j0cmh.css","style"]
-:HL["/faro/_next/static/media/797e433ab948586e-s.p.08e28id.o-okb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/faro/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/faro/faro-logo.png","image"]
+:HL["/faro/_next/static/css/613ca4d1ceea2e2f.css","style"]
+:HL["/faro/faro-logo-horizontal-negative.png","image"]
 :HL["/faro/oscar-mena-retrato.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"trayectoria","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"oS13m4WcGV9H7lz8_FFKX"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"trayectoria","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"QU9HNUOjBgIiYb7W59E7-"}

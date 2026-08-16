@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
-3:I[39756,["/faro/_next/static/chunks/01xlw8hd842-c.js","/faro/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-4:I[37457,["/faro/_next/static/chunks/01xlw8hd842-c.js","/faro/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
-:HL["/faro/_next/static/chunks/0itgxmv1j0cmh.css","style"]
-2:T40b,(() => {
-              const release = "faro-stable-2026-07-22";
+3:I[107,[],""]
+4:I[7991,[],""]
+:HL["/faro/_next/static/css/613ca4d1ceea2e2f.css","style"]
+2:T414,(() => {
+              const release = "faro-google-calendar-2026-08-16";
               const key = "faro-active-release";
               try {
                 if (localStorage.getItem(key) === release) return;
@@ -24,4 +24,4 @@
               } catch (_) {
                 // El sitio sigue funcionando aunque el navegador bloquee el almacenamiento local.
               }
-            })();0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/faro/_next/static/chunks/0itgxmv1j0cmh.css","precedence":"next"}],["$","script","script-0",{"src":"/faro/_next/static/chunks/01xlw8hd842-c.js","async":true}],["$","script","script-1",{"src":"/faro/_next/static/chunks/0d3shmwh5_nmn.js","async":true}]],["$","html",null,{"lang":"es","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"oS13m4WcGV9H7lz8_FFKX"}
+            })();0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/faro/_next/static/css/613ca4d1ceea2e2f.css","precedence":"next"}]],["$","html",null,{"lang":"es","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"__variable_e3e27b __variable_4e92cd antialiased","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"QU9HNUOjBgIiYb7W59E7-"}

@@ -3,7 +3,7 @@
 4:I[7991,[],""]
 :HL["/faro/_next/static/css/cedfd70b5330379d.css","style"]
 2:T414,(() => {
-              const release = "faro-updated-favicon-2026-08-16";
+              const release = "faro-favicon-faro5-2026-08-16";
               const key = "faro-active-release";
               try {
                 if (localStorage.getItem(key) === release) return;

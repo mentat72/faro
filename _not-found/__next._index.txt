@@ -3,7 +3,7 @@
 4:I[7991,[],""]
 :HL["/faro/_next/static/css/cedfd70b5330379d.css","style"]
 2:T414,(() => {
-              const release = "faro-google-calendar-2026-08-16";
+              const release = "faro-updated-favicon-2026-08-16";
               const key = "faro-active-release";
               try {
                 if (localStorage.getItem(key) === release) return;
@@ -24,4 +24,4 @@
               } catch (_) {
                 // El sitio sigue funcionando aunque el navegador bloquee el almacenamiento local.
               }
-            })();0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/faro/_next/static/css/cedfd70b5330379d.css","precedence":"next"}]],["$","html",null,{"lang":"es","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"__variable_e3e27b __variable_4e92cd antialiased","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"bLHSwnL92HIYOwbyPoWTt"}
+            })();0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/faro/_next/static/css/cedfd70b5330379d.css","precedence":"next"}]],["$","html",null,{"lang":"es","children":[["$","head",null,{"children":["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]}],["$","body",null,{"className":"__variable_e3e27b __variable_4e92cd antialiased","children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"oBatCmHrmuG_RhPLeudOV"}

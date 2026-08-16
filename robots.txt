@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /faro/api/
+
+Host: https://mentat72.github.io/faro
+Sitemap: https://mentat72.github.io/faro/sitemap.xml

@@ -1,0 +1,56 @@
+.data-economy,.business-decisions{position:relative}
+.data-economy{background:linear-gradient(180deg,rgba(255,255,255,.94),rgba(247,244,238,.98)),url("/faro/motif-guidance-field-light.png") no-repeat 100% 0/min(62vw,860px) auto}
+.business-decisions{background:#fff}
+.data-section-heading{max-width:790px;margin:0 auto;text-align:center}
+.data-section-heading h2{color:var(--faro-night);letter-spacing:-.045em;margin:16px 0 22px;font-family:var(--font-manrope),Arial,sans-serif;font-size:clamp(36px,4vw,56px);line-height:1.06}
+.data-section-heading>p:not(.kicker){color:var(--muted);max-width:720px;margin:0 auto;font-size:17px;line-height:1.72}
+.data-section-heading>p:not(.kicker)+p{margin-top:8px}
+.value-map-wrap{margin-top:62px}
+.value-map-title,.value-pillars-title{color:var(--action-blue);letter-spacing:.11em;text-transform:uppercase;margin:0 0 24px;text-align:center;font-size:13px;font-weight:850}
+.value-map{counter-reset:value-map;grid-template-columns:repeat(5,minmax(0,1fr));gap:34px;margin:0;padding:0;list-style:none;display:grid}
+.value-map li{counter-increment:value-map;background:rgba(255,255,255,.9);border:1px solid var(--line-light);border-top:3px solid var(--action-blue);border-radius:10px;min-width:0;min-height:184px;padding:25px 20px 22px;position:relative;box-shadow:0 14px 36px rgba(6,36,61,.07)}
+.value-map li:not(:last-child)::after{content:"→";color:var(--signal-cyan);width:34px;place-items:center;font-size:25px;font-weight:800;display:grid;position:absolute;top:50%;left:100%;transform:translateY(-50%)}
+.value-map li::before{content:"0" counter(value-map);color:var(--action-blue);font-family:var(--font-inter),Arial,sans-serif;font-size:12px;font-weight:800}
+.value-map h3{color:var(--faro-night);margin:13px 0 9px;font-family:var(--font-manrope),Arial,sans-serif;font-size:20px;line-height:1.2}
+.value-map p{color:var(--muted);margin:0;font-size:14px;line-height:1.6}
+.value-pillars-wrap{margin-top:60px}
+.value-pillars{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;display:grid}
+.value-pillar{background:rgba(255,255,255,.9);border:1px solid var(--line-light);border-radius:10px;min-height:190px;padding:26px 24px}
+.value-pillar span{color:var(--deep-current);background:var(--signal-cyan);border-radius:50%;place-items:center;width:34px;height:34px;font-size:12px;font-weight:850;display:grid}
+.value-pillar h3{color:var(--faro-night);margin:22px 0 10px;font-family:var(--font-manrope),Arial,sans-serif;font-size:20px}
+.value-pillar p{color:var(--muted);margin:0;line-height:1.62}
+.data-economy-quote{color:var(--faro-night);background:rgba(216,243,248,.46);border-left:4px solid var(--signal-cyan);max-width:920px;margin:44px auto 0;padding:21px 28px;text-align:center;font-family:var(--font-manrope),Arial,sans-serif;font-size:clamp(18px,2vw,22px);font-weight:700;line-height:1.5}
+.decision-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:58px;display:grid}
+.decision-card-example{background:#fff;border:1px solid var(--line-light);border-top:3px solid var(--action-blue);border-radius:10px;flex-direction:column;min-width:0;min-height:430px;padding:29px 27px 26px;transition:border-color .2s ease,transform .2s ease;display:flex}
+.decision-card-example:hover{border-color:rgba(14,111,173,.55);transform:translateY(-2px)}
+.decision-number{color:var(--action-blue);letter-spacing:.08em;font-family:var(--font-inter),Arial,sans-serif;font-size:13px;font-weight:850}
+.decision-card-example h3{color:var(--faro-night);letter-spacing:-.025em;margin:23px 0 16px;font-family:var(--font-manrope),Arial,sans-serif;font-size:24px;line-height:1.2}
+.decision-card-example>p{color:var(--muted);margin:0 0 24px;line-height:1.65}
+.decision-outcome{background:var(--warm-mist);border:1px solid var(--line-light);border-radius:8px;margin-top:auto;padding:18px}
+.decision-outcome p{color:var(--faro-night);margin:0;font-size:14px;line-height:1.55}
+.decision-outcome p+p{border-top:1px solid var(--line-light);margin-top:12px;padding-top:12px}
+.decision-outcome strong{color:var(--action-blue)}
+.audit-transition{color:#fff;background:linear-gradient(115deg,rgba(0,26,51,.97),rgba(6,36,61,.92)),url("/faro/motif-double-beam.png") no-repeat 100% 50%/min(54vw,710px) auto;border:1px solid rgba(211,229,236,.2);border-radius:12px;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:42px;margin-top:54px;padding:36px 40px;display:grid}
+.audit-transition .kicker{color:var(--signal-cyan)}
+.audit-transition h3{color:#fff;letter-spacing:-.035em;margin:13px 0 11px;font-family:var(--font-manrope),Arial,sans-serif;font-size:clamp(27px,3vw,39px);line-height:1.12}
+.audit-transition p:last-child{color:#c9d9df;max-width:760px;margin:0;line-height:1.65}
+.audit-transition .button{min-width:210px}
+@media(max-width:1023px){.value-map{gap:24px}.value-map li{min-height:176px;padding:22px 16px 20px}.value-map li:not(:last-child)::after{width:24px;font-size:20px}.value-map h3{font-size:17px}.value-map p{font-size:13px}.value-pillars{grid-template-columns:repeat(2,minmax(0,1fr))}.decision-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.decision-card-example{min-height:410px}.audit-transition{grid-template-columns:1fr;gap:26px}.audit-transition .button{width:fit-content}}
+@media(max-width:767px){.data-section-heading{text-align:left}.data-section-heading h2{margin-top:13px;font-size:clamp(34px,10vw,44px)}.data-section-heading>p:not(.kicker){font-size:16px}.value-map-wrap,.value-pillars-wrap,.decision-grid{margin-top:42px}.value-map-title,.value-pillars-title{text-align:left}.value-map,.value-pillars,.decision-grid{grid-template-columns:1fr}.value-map{gap:38px;padding-left:18px}.value-map li{min-height:0;padding:22px 20px}.value-map li:not(:last-child)::after{content:"↓";width:auto;height:38px;top:100%;bottom:auto;left:24px;transform:none}.value-map h3{font-size:20px}.value-map p{font-size:14px}.value-pillar{min-height:0}.data-economy-quote{margin-top:36px;padding:20px 18px;text-align:left}.decision-card-example{min-height:0;padding:26px 22px 22px}.decision-card-example h3{font-size:23px}.decision-outcome{margin-top:4px}.audit-transition{margin-top:42px;padding:29px 22px}.audit-transition .button{width:100%;min-width:0;min-height:52px}}
+.service-download{background:#fff;border:1px solid var(--line-light);border-radius:10px;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:32px;margin-top:18px;padding:22px 24px;display:grid}
+.service-download-copy{grid-template-columns:auto minmax(0,1fr);align-items:center;gap:15px;display:grid}
+.pdf-badge{color:#fff;background:var(--action-blue);border-radius:6px;padding:8px 7px;font-size:12px;font-weight:850;line-height:1;display:inline-block}
+.service-download p{color:var(--muted);margin:0;line-height:1.55}
+.service-download strong{color:var(--faro-night);display:block}
+.service-download-button{color:#fff;background:var(--action-blue);min-height:48px;padding-inline:20px;box-shadow:none}
+.service-download-button:hover{color:#fff;background:var(--navy-800)}
+.audit-intro-actions{flex-direction:column;align-items:flex-start;gap:12px;margin-top:34px;display:flex}
+.audit-intro .audit-intro-actions .button{width:fit-content;margin-top:0}
+.audit-intro .audit-download-button{min-height:50px}
+.pdf-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.pdf-actions .button{min-height:48px}
+.audit-document-actions{padding:24px 36px}
+@media(max-width:767px){.service-download{grid-template-columns:1fr;gap:20px;padding:22px 20px}.service-download-button{width:100%;min-height:52px}.audit-intro .audit-intro-actions,.audit-intro .audit-intro-actions .button{width:100%}}
+@media(max-width:767px){.pdf-actions{width:100%;flex-direction:column;align-items:stretch}}
+@media(max-width:767px){.audit-document-actions{padding:20px 22px}}
+@media(prefers-reduced-motion:reduce){.decision-card-example{transition:none}}

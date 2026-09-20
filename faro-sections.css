@@ -54,3 +54,24 @@
 @media(max-width:767px){.pdf-actions{width:100%;flex-direction:column;align-items:stretch}}
 @media(max-width:767px){.audit-document-actions{padding:20px 22px}}
 @media(prefers-reduced-motion:reduce){.decision-card-example{transition:none}}
+
+/* FARO Brand System 2.0 · Option D */
+.site-header .brand { width:220px; min-height:66px; padding:6px 0; }
+.site-header .brand img { width:220px; height:auto; max-width:none; max-height:none; object-fit:contain; border:0; border-radius:0; box-shadow:none; }
+.footer-brand { width:220px; min-width:220px; padding:7px 0; }
+.footer-brand img { width:46px; height:38px; max-width:none; max-height:none; object-fit:contain; border:0; border-radius:0; box-shadow:none; }
+.services .kicker,.data-economy .kicker,.business-decisions>.data-section-heading .kicker,
+.fit-section .kicker,.cases .kicker,.about .kicker,.faq .kicker,.diagnostic-section .kicker { color:var(--action-blue); }
+.action-pill { background:var(--signal-cyan); color:var(--deep-current); }
+.lighthouse-mark { display:none; }
+.hero:after,.case-visual:after { display:none; }
+.contact { background-image:none; }
+.audit-transition { background-image:linear-gradient(115deg,rgba(0,26,51,.97),rgba(6,36,61,.92)); }
+.connector { filter:none; }
+.signal-card:after,.clarity-port { box-shadow:none; }
+@media(max-width:760px){
+  .site-header .brand { width:158px; min-height:47px; padding:5px 0; }
+  .site-header .brand img { width:158px; height:auto; }
+  .footer-brand { width:158px; min-width:158px; padding:5px 0; }
+  .footer-brand img { width:46px; height:38px; }
+}
